@@ -12,11 +12,11 @@ The code is written from scratch based on the original [CLIP-Adapter](https://ar
 
 ## Environment
 
-Create (or reuse) conda env `clip_adapter`:
+We recommend setting up the environment using Conda:
 
 ```bash
-conda create -n clip_adapter --clone cyclegan -y
-conda run -n clip_adapter python -m pip install -U open_clip_torch pyarrow datasets
+conda env create -f environment.yml
+conda activate clip_adapter
 ```
 
 ## Running Experiments
@@ -41,7 +41,7 @@ For required benchmarks:
 - Office-Home (Art → Real_World)
 - PACS (photo → sketch)
 
-## Evaluation Only
+## Evaluation
 
 Use `eval_clip_adapter.py` to evaluate zero-shot and (optionally) a trained adapter checkpoint:
 

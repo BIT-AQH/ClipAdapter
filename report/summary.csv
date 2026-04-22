@@ -1,0 +1,11 @@
+exp,task,source,target,lr,alpha,bottleneck,train_steps,acc_clip,acc_adapter,delta
+clipadapter_mnist2usps_mnist2usps_lr0.001_alpha0.2_b64,mnist2usps,mnist,usps,0.001,0.2,64,21,0.629796,0.771799,0.142003
+clipadapter_office31_amazon2webcam_lr0.001_alpha0.2_b64,office31,amazon,webcam,0.001,0.2,64,22,0.914465,0.898113,-0.016351999999999922
+clipadapter_svhn2mnist_lr0.001_alpha0.2_b64,svhn2mnist,svhn,mnist,0.001,0.2,64,201,0.616406,0.692656,0.07625000000000004
+clipadapter_pacs_photo2sketch_lr0.001_alpha0.2_b64,pacs,photo,sketch,0.001,0.2,64,11,0.9155,0.914737,-0.0007629999999999582
+clipadapter_mnist2usps_lr0.001_alpha0.2_b64,mnist2usps,mnist,usps,0.001,0.2,64,234,0.630294,0.857997,0.227703
+clipadapter_svhn2mnist_lr0.001_alpha0.2_b64,svhn2mnist,svhn,mnist,0.001,0.2,64,286,0.6189,0.7008,0.08189999999999997
+clipadapter_officehome_Art2Real_World_lr0.001_alpha0.2_b64,officehome,Art,Real World,0.001,0.2,64,15,0.915997,0.913473,-0.0025239999999999707
+clipadapter_mnist2usps_lr1e-3_alpha0.5_b64,mnist2usps,mnist,usps,0.001,0.5,64,234,0.630294,0.870453,0.240159
+clipadapter_mnist2usps_lr1e-3_alpha0.2_b256,mnist2usps,mnist,usps,0.001,0.2,256,234,0.630294,0.890882,0.26058799999999993
+clipadapter_mnist2usps_lr1e-3_alpha0.2_b16,mnist2usps,mnist,usps,0.001,0.2,16,234,0.630294,0.885899,0.25560499999999997
